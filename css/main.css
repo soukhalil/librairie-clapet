@@ -6,7 +6,6 @@
 */
 
 body {
-  max-width: 960px;
   margin: auto;
   border-bottom: 5px solid #d9d9d9;
   padding-bottom: 75px;
@@ -40,7 +39,7 @@ h1 {
 
 h2 {
   margin: 25px 0;
-  font-size: 3.5em;
+  font-size: 64px;
   font-weight: 200;
 }
 
@@ -66,7 +65,7 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1;
 }
 
@@ -95,6 +94,7 @@ button {
   padding: 0 15px;
   width: 960px;
   max-width: 100%;
+  text-align:center;
 }
 
 .text-container {
@@ -196,7 +196,11 @@ button {
 }
 
 .chapo {
-  font-size: 1.6em;
+  font-size: 25px;
+  max-width:602px;
+  margin-left:auto;
+  margin-right: auto;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .full-width {
@@ -221,9 +225,9 @@ button {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 35px;
-  width: 960px;
+  max-width:960px;
   height: 350px;
-  background: url("../img/header-bg.jpeg");
+  background: url("../img/background.jpg");
   background-size: cover;
   background-position: center bottom;
   overflow: hidden;
@@ -249,7 +253,9 @@ button {
 }
 
 .header__title {
-  font-size: 5.4em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 64px;
+  font-weight: bold;
   margin: 0;
 }
 
@@ -258,6 +264,7 @@ button {
   font-size: 3.2em;
   font-weight: 100;
   text-shadow: 1px 1px 5px #000;
+  font-family: 'Montserrat';<;
 }
 
 
@@ -271,7 +278,9 @@ button {
 
 .nav-main__link {
   display: block;
-  padding: 10px;
+  padding: 18px;
+  font-family: 'Work Sans';
+  font-weight: lighter;
   color: #fff;
 }
 .nav-main__link:hover {
@@ -474,4 +483,20 @@ button {
 .index-title {
   text-align: center;
   margin-bottom: 35px;
+}
+
+.texte-citation { 
+color:orange ; 
+border-left: solid grey ;
+font-size:24px;
+}
+
+.auteur-citation {
+color: black ; 
+border-left: black ;
+font-size:16px;
+
+}
+.colonne {
+display : flex
 }
