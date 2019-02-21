@@ -308,6 +308,10 @@ button {
 
 .honey-pot-list {
   text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  min-width:40%; 
 }
 
 .honey-pot {
