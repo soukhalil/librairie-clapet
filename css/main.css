@@ -24,12 +24,10 @@ li {
 }
 
 p {
-  margin: 15px 0;
-
+  margin: 15px;
   font-family: Montserrat;
-  font-size: 64px;
+  font-size: 20px;
   font-weight: 200;
-  text-align: center;
   color: var(--black);
 }
 
@@ -468,7 +466,7 @@ button {
 
 .page-single__title {
   margin: 0;
-  font-size: 5.6em;
+  font-size: 56px;
   line-height: 1.4;
   font-weight: 500;
 }
@@ -501,16 +499,53 @@ border-left: solid grey ;
 font-size:24px;
 }
 
+}
+
+.texte-citation-jolie { 
+color:black ; 
+border-left: solid grey ;
+font-size:24px;
+}
+
+
+
 .auteur-citation {
 color: black ; 
 border-left: black ;
 font-size:16px;
 
 }
-.colonne {
-display : flex
-}
 
+.colonne {
+  display : flex
+}
+.colonne-texte {
+  text-align: left;
+  margin-bottom:110px;
+}
 .colonne-image {
   min-width:50%;
+}
+
+.colonne-image-petite {
+  min-width:25%;
+  margin-bottom:82px;
+}
+.honey-pot__thumbnail{
+transition is transform;
+
+}
+
+
+.honey-pot__thumbnail:hover {
+  transform: translate(-50px) rotate(30deg);
+  opacity: 8.5;
+}
+
+.colonne-image-petites {
+  min-width:25%;
+  
+}
+.colonne-texte {
+  text-align: left;
 }
