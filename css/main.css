@@ -549,3 +549,15 @@ transition is transform;
 .colonne-texte {
   text-align: left;
 }
+
+.body{
+animation: disco  is infinite;
+}
+
+@keyframes disco: {
+  0% { background-color:pink;}
+  25% { background-color: green;}
+  50% {background-color: orange; }
+  75% {background-color:blue; }
+  100% {background-color: pink; }
+}
