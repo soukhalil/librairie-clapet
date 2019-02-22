@@ -25,6 +25,12 @@ li {
 
 p {
   margin: 15px 0;
+
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 200;
+  text-align: center;
+  color: var(--black);
 }
 
 b, strong, optgroup {
@@ -380,7 +386,7 @@ button {
 
 .news__image {
   display: block;
-  width: 100%;
+  width: 60%;
 }
 
 .news__date {
@@ -503,4 +509,8 @@ font-size:16px;
 }
 .colonne {
 display : flex
+}
+
+.colonne-image {
+  min-width:50%;
 }
